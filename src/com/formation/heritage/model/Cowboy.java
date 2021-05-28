@@ -1,4 +1,4 @@
-package com.formation.heritage;
+package com.formation.heritage.model;
 
 public class Cowboy extends Human implements PaleFace{
 

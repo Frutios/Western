@@ -1,17 +1,12 @@
-package com.formation.heritage;
+package com.formation.heritage.model;
 
-public class DirtyCop extends Brigand implements Outlaw, PaleFace{
+public class CalamityJane extends Lady implements Outlaw, PaleFace{
 
     private int nbKidnappedLadies = 0;
-    private int catchReward = 200;
+    private int catchReward = 300;
 
-    public DirtyCop(String name) {
-        super(name);
-    }
-
-    @Override
-    public void introduceYourself() {
-        super.introduceYourself();
+    public CalamityJane(String name, String dressColor) {
+        super(name, dressColor);
     }
 
     @Override
@@ -30,5 +25,4 @@ public class DirtyCop extends Brigand implements Outlaw, PaleFace{
     public void howMuchIsCatchReward() {
         speak(" :  ma tête est mise à prix à " + catchReward);
     }
-
 }

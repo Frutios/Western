@@ -1,5 +1,7 @@
 package com.formation.heritage;
 
+import com.formation.heritage.model.*;
+
 public class Main {
 
     public static void main(String[] args) {

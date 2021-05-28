@@ -1,4 +1,4 @@
-package com.formation.heritage;
+package com.formation.heritage.model;
 
 public interface Outlaw {
 
